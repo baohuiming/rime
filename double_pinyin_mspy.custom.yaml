@@ -1,0 +1,32 @@
+patch:
+    # "translator/dictionary": double_pinyin_mspy.extended.dict
+    "switches/@0/reset": 1
+    "switches/@2/reset": 1
+    "punctuator/import_preset": mysymbols
+    #載入朙月拼音擴充詞庫
+    'translator/dictionary': luna_pinyin.extended
+    'translator/preedit_format': {}
+
+
+    # 自定义符号上屏
+    punctuator:
+        import_preset: symbols
+        # 自定义快捷符号输入
+        # symbols:
+        #   "/fs": [½, ‰, ¼, ⅓, ⅔, ¾, ⅒ ]
+        half_shape:
+        "#": "#"
+        "*": "*"
+        "`": "`"
+        "~": "~"
+        "@": "@"
+        "=": "="
+        "/": ["/", "÷",]
+        '\': "、"
+        # "_" : "──"
+        "'": {pair: ["「", "」"]}
+        "[": ["【", "["]
+        "]": ["】", "]"]
+        "$": ["¥", "$", "€", "£", "¢", "¤"]
+        "<": ["《", "〈", "«", "<"]
+        ">": ["》", "〉", "»", ">"]
