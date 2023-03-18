@@ -53,6 +53,9 @@ import_tables:
 #  - dicts/luna_pinyin.place
 #  - dicts/luna_pinyin.shopping
 #  - dicts/luna_pinyin.website
+  - dicts/e_pinyin
+# - dicts/e_pinyin.cet_46
+# - dicts/e_pinyin.word_extend
   - dicts/qqpy.usually
   - dicts/sougou.netword
   - dicts/sogou.default
