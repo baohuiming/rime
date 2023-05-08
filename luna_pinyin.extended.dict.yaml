@@ -36,7 +36,7 @@
 ---
 name: luna_pinyin.extended
 version: "2016.06.2
-sort: by_weight  #字典初始排序，可選original或by_weight
+sort: original  #字典初始排序，可選original或by_weight
 use_preset_vocabulary: true
 #此處爲明月拼音擴充詞庫（基本）默認鏈接載入的詞庫，有朙月拼音官方詞庫、明月拼音擴充詞庫（漢語大詞典）、明月拼音擴充詞庫（詩詞）、明月拼音擴充詞庫（含西文的詞彙）。如果不需要加載某个詞庫請將其用「#」註釋掉。
 #雙拼不支持 luna_pinyin.cn_en 詞庫，請用戶手動禁用。
@@ -53,13 +53,13 @@ import_tables:
 #  - dicts/luna_pinyin.place
 #  - dicts/luna_pinyin.shopping
 #  - dicts/luna_pinyin.website
-  - dicts/e_pinyin
 # - dicts/e_pinyin.cet_46
 # - dicts/e_pinyin.word_extend
   - dicts/qqpy.usually
-  - dicts/sougou.netword
-  - dicts/sogou.default
-  - dicts/xinhua
-  - dicts/sougou.chengyu
   - dicts/qqpy.default
+  - dicts/sogou.default
+  - dicts/sougou.chengyu
+  - dicts/sougou.netword
+  - dicts/e_pinyin
+#  - dicts/xinhua
 ...
