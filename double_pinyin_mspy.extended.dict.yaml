@@ -7,10 +7,11 @@ use_preset_vocabulary: true
 
 import_tables:
   - luna_pinyin
-  - dicts/qqpy.usually
-  - dicts/tsinghua.ocl
-  - dicts/sougou.netword
   - dicts/sogou.default
-  - dicts/xinhua
-  - dicts/sougou.chengyu
+  - dicts/sougou.netword
+  - dicts/qqpy.usually
   - dicts/qqpy.default
+  - dicts/sougou.chengyu
+#  - dicts/tsinghua.ocl
+#  - dicts/xinhua
+

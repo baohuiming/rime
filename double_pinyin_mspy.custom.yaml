@@ -4,7 +4,7 @@ patch:
     "switches/@2/reset": 1
     "punctuator/import_preset": mysymbols
     #載入朙月拼音擴充詞庫
-    'translator/dictionary': luna_pinyin.extended
+#    'translator/dictionary': luna_pinyin.extended
     'translator/preedit_format': {}
 
 
